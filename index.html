@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .sidebar {
+            background-color: rgb(146, 207, 207);
+            width: 15vw;
+            font-family: 'Anton', sans-serif;
+
+        }
+
+        .sidebar-nav {
+            padding: 45;
+        }
+
+        .sidebar nav li {
+
+            font-size: 25px;
+            list-style: none;
+            padding: 30px;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-color: rgb(162, 92, 228);
+            width: 85vw;
+        }
+
+        .container {
+            display: flex;
+        }
+        
+        .devInfo{
+            margin-top: 25px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-style: italic;
+
+
+        }   
+
+        .infocontainer {
+            background-color: rgb(171, 162, 187);
+            height: 80vh;
+            width: 77vw;
+            margin: 60px auto;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .button{
+             margin-top: 25px;
+        }
+        .button button{
+            padding: 6px 8px;
+            border-radius: 25px;
+            color: rgb(172, 19, 19);
+            background-color: rgb(214, 168, 125); 
+            font-weight: bold;
+            font-size: 16px;
+            margin: 5 10px;
+            cursor: pointer;
+        }
+            .button button:hover{
+                background-color: lightcyan;
+               
+            }
+        .devPic img {
+            height: 50vh;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+
+                    <li><a href="/Indroduction.html">Indroduction</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
+                    <li><a href="/LinkedIn.html">LinkedIn</a></li>
+                    <li><a href="/Skills.html">Skills</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="infocontainer">
+                <div class="devInfo">
+                    <div class="hello">Hello</div><br>
+                    <div class="hello">Rahul Singh</div><br>
+                    <div class="hello">Seeking full time career with an organization, which will permit me to use and contribute my abilities in company development and to enhance my knowledge and contribute towards its growth by committed and high-quality work.</div>
+                    <div class="button">
+                        <a href="Resume.doc">
+                        <button>My Resume</button></a>
+                        <a href="Email.txt">
+                        <button>Email</button></a>
+                        <a href="PhoneNumber.txt">
+                        <button>PhoneNumber</button>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="devPic"><img src="rahul.png" alt="Fullstack"></div>
+
+            </div>
+        </div>
+
+
+</body>
+
+</html>
